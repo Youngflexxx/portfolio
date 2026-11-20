@@ -1,0 +1,112 @@
+/* Diccionario ES/EN — ver skill portfolio-i18n antes de editar */
+const I18N = {
+  es: {
+    "skip": "Saltar al contenido",
+    "nav.menu": "Abrir menú de navegación",
+    "nav.home": "Inicio",
+    "nav.about": "Sobre mí",
+    "nav.projects": "Proyectos",
+    "nav.skills": "Habilidades",
+    "nav.contact": "Contacto",
+    "lang.switch": "Cambiar idioma",
+
+    "hero.jp": "真実への旅",
+    "hero.tagline": "Alcanza la verdad",
+    "hero.sub": "Construyo cosas que funcionan: bots con visión artificial, webs seguras y código que se puede leer.",
+    "hero.cta": "Ver proyectos",
+    "hero.cta2": "Ver en GitHub",
+
+    "about.title": "Sobre mí",
+    "about.jp": "プロフィール",
+    "about.sub": "Un vistazo rápido antes de abrir las cartas.",
+    "about.panel": "Perfil",
+    "about.name-label": "Nombre",
+    "about.name-value": "Youngflexxx",
+    "about.focus-label": "Enfoque",
+    "about.focus-value": "Python · PHP · Automatización",
+    "about.status-label": "Estado",
+    "about.status-value": "Construyendo cosas",
+    "about.edu-label": "Formación",
+    "about.edu-value": "Ingeniería en Sistemas · en curso",
+    "about.links-label": "Social Link",
+    "about.p1": "Soy desarrollador con foco en automatización y desarrollo web. Me interesa que las herramientas resuelvan problemas reales: un bot que juega con visión artificial, una red social que no filtra su base de datos, una interfaz que se entiende sin manual.",
+    "about.p2": "Este portafolio reúne mis proyectos públicos de GitHub. Cada uno es una carta del tarot: míralas, dales la vuelta y abre el código fuente.",
+    "about.p3": "Me gusta leer, estoy aprendiendo a dibujar y estoy en camino de convertirme en un futuro ingeniero en sistemas.",
+
+    "projects.title": "Proyectos",
+    "projects.jp": "大アルカナ",
+    "projects.sub": "Dos cartas, dos historias. Toca una para voltearla.",
+    "projects.flip": "Voltear",
+    "projects.notice": "Aviso",
+    "projects.github": "Ver en GitHub",
+
+    "skills.title": "Habilidades",
+    "skills.jp": "スキル",
+    "skills.sub": "Lo que manejo, agrupado por terreno.",
+
+    "contact.title": "Contacto",
+    "contact.jp": "声をかけて",
+    "contact.claim": "¿Hablamos?",
+    "contact.sub": "¿Tienes un proyecto, una idea o solo quieres saludar? El canal está abierto.",
+    "contact.github": "Abrir GitHub",
+    "contact.email": "Escribir un correo",
+
+    "footer.text": "© 2026 Youngflexxx · Hecho con HTML, Tailwind CSS y mucho amarillo.",
+    "footer.note": "Portfolio inspirado en la estética de Persona 4 Golden. Sin assets del juego: todo el diseño es CSS y SVG originales. Persona 4 Golden es marca de Atlus."
+  },
+
+  en: {
+    "skip": "Skip to content",
+    "nav.menu": "Open navigation menu",
+    "nav.home": "Home",
+    "nav.about": "About",
+    "nav.projects": "Projects",
+    "nav.skills": "Skills",
+    "nav.contact": "Contact",
+    "lang.switch": "Switch language",
+
+    "hero.jp": "真実への旅",
+    "hero.tagline": "Reach out to the truth",
+    "hero.sub": "I build things that work: computer vision bots, secure web apps, and code you can actually read.",
+    "hero.cta": "See projects",
+    "hero.cta2": "View on GitHub",
+
+    "about.title": "About me",
+    "about.jp": "プロフィール",
+    "about.sub": "A quick look before you open the cards.",
+    "about.panel": "Profile",
+    "about.name-label": "Name",
+    "about.name-value": "Youngflexxx",
+    "about.focus-label": "Focus",
+    "about.focus-value": "Python · PHP · Automation",
+    "about.status-label": "Status",
+    "about.status-value": "Building things",
+    "about.edu-label": "Education",
+    "about.edu-value": "Systems Engineering · in progress",
+    "about.links-label": "Social Link",
+    "about.p1": "I'm a developer focused on automation and web development. I care about tools that solve real problems: a bot that plays with computer vision, a social network that doesn't leak its database, an interface you understand without a manual.",
+    "about.p2": "This portfolio gathers my public GitHub projects. Each one is a tarot card: look at them, flip them open and read the source.",
+    "about.p3": "I enjoy reading, I'm learning to draw, and I'm on my way to becoming a systems engineer.",
+
+    "projects.title": "Projects",
+    "projects.jp": "大アルカナ",
+    "projects.sub": "Two cards, two stories. Tap one to flip it.",
+    "projects.flip": "Flip",
+    "projects.notice": "Notice",
+    "projects.github": "View on GitHub",
+
+    "skills.title": "Skills",
+    "skills.jp": "スキル",
+    "skills.sub": "What I work with, grouped by terrain.",
+
+    "contact.title": "Contact",
+    "contact.jp": "声をかけて",
+    "contact.claim": "Let's talk?",
+    "contact.sub": "Got a project, an idea, or just want to say hi? The channel is open.",
+    "contact.github": "Open GitHub",
+    "contact.email": "Send an email",
+
+    "footer.text": "© 2026 Youngflexxx · Built with HTML, Tailwind CSS and a lot of yellow.",
+    "footer.note": "Portfolio inspired by the Persona 4 Golden aesthetic. No game assets: all design is original CSS and SVG. Persona 4 Golden is a trademark of Atlus."
+  }
+};

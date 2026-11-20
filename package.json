@@ -1,0 +1,14 @@
+{
+  "name": "youngflexxx-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio con temática Persona 4 Golden",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/style.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./css/style.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}

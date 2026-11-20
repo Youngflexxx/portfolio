@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youngflexxx · Portfolio</title>
+  <meta name="description" content="Portfolio de Youngflexxx: automatización con visión artificial (Python) y desarrollo web seguro (PHP). Proyectos en GitHub con estética Persona 4 Golden.">
+  <meta name="theme-color" content="#111111">
+  <meta property="og:title" content="Youngflexxx · Portfolio">
+  <meta property="og:description" content="Automatización con visión artificial y desarrollo web seguro. Proyectos en GitHub.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Noto+Sans+JP:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#home" data-i18n="skip">Saltar al contenido</a>
+
+  <noscript>
+    <div class="noscript-banner">Este sitio necesita JavaScript para mostrar los proyectos y cambiar de idioma. · This site needs JavaScript to show projects and switch language.</div>
+  </noscript>
+
+  <header class="site-nav">
+    <div class="nav-inner mx-auto max-w-6xl px-4">
+      <a class="brand" href="#home" aria-label="Youngflexxx">
+        <svg class="brand-glasses" viewBox="0 0 128 48" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+          <path d="M10 12h44c-1 14-4 24-10 28-7 5-22 4-27-2C12 32 10 22 10 12Z"/>
+          <path d="M118 12H74c1 14 4 24 10 28 7 5 22 4 27-2 5-6 7-16 7-26Z"/>
+          <path d="M54 14c6 4 14 4 20 0"/>
+          <path d="M10 12 2 8"/>
+          <path d="m118 12 8-4"/>
+        </svg>
+        <span>YOUNGFLEXXX</span>
+      </a>
+
+      <nav class="nav-links" id="nav-menu" aria-label="Principal">
+        <a class="nav-link" href="#home"><span data-i18n="nav.home">Inicio</span></a>
+        <a class="nav-link" href="#about"><span data-i18n="nav.about">Sobre mí</span></a>
+        <a class="nav-link" href="#projects"><span data-i18n="nav.projects">Proyectos</span></a>
+        <a class="nav-link" href="#skills"><span data-i18n="nav.skills">Habilidades</span></a>
+        <a class="nav-link" href="#contact"><span data-i18n="nav.contact">Contacto</span></a>
+        <div class="lang-switch" role="group" data-i18n-aria="lang.switch" aria-label="Cambiar idioma">
+          <button type="button" class="lang-btn" data-lang="es" aria-pressed="true">ES</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-i18n-aria="nav.menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <canvas id="tv-static" aria-hidden="true"></canvas>
+      <div class="scanlines" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <svg class="hero-glasses" viewBox="0 0 128 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+        <path d="M10 12h44c-1 14-4 24-10 28-7 5-22 4-27-2C12 32 10 22 10 12Z"/>
+        <path d="M118 12H74c1 14 4 24 10 28 7 5 22 4 27-2 5-6 7-16 7-26Z"/>
+        <path d="M54 14c6 4 14 4 20 0"/>
+        <path d="M10 12 2 8"/>
+        <path d="m118 12 8-4"/>
+      </svg>
+
+      <div class="hero-content mx-auto max-w-6xl px-4">
+        <p class="hero-jp font-jp" data-i18n="hero.jp">真実への旅</p>
+        <h1 class="hero-title">YOUNGFLEXXX</h1>
+        <div class="hero-slash" aria-hidden="true"></div>
+        <p class="hero-tagline" data-i18n="hero.tagline">Alcanza la verdad</p>
+        <p class="hero-sub" data-i18n="hero.sub">Construyo cosas que funcionan: bots con visión artificial, webs seguras y código que se puede leer.</p>
+        <div class="hero-actions">
+          <a class="btn-p4" href="#projects" data-i18n="hero.cta">Ver proyectos</a>
+          <a class="btn-p4 btn-p4-ghost" href="https://github.com/Youngflexxx" target="_blank" rel="noopener" data-i18n="hero.cta2">Ver en GitHub</a>
+        </div>
+      </div>
+
+      <div class="stripes-band" aria-hidden="true"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-ink" id="about">
+      <div class="mx-auto max-w-6xl px-4">
+        <header class="section-head reveal">
+          <span class="section-num">01</span>
+          <h2 data-i18n="about.title">Sobre mí</h2>
+          <p class="section-jp font-jp" data-i18n="about.jp">プロフィール</p>
+          <p class="section-sub" data-i18n="about.sub">Un vistazo rápido antes de abrir las cartas.</p>
+        </header>
+
+        <div class="about-grid">
+          <div class="status-panel reveal">
+            <div class="panel-title" data-i18n="about.panel">Perfil</div>
+            <div class="status-row">
+              <span class="status-label" data-i18n="about.name-label">Nombre</span>
+              <span class="status-value" data-i18n="about.name-value">Youngflexxx</span>
+            </div>
+            <div class="status-row">
+              <span class="status-label" data-i18n="about.focus-label">Enfoque</span>
+              <span class="status-value" data-i18n="about.focus-value">Python · PHP · Automatización</span>
+            </div>
+            <div class="status-row">
+              <span class="status-label" data-i18n="about.edu-label">Formación</span>
+              <span class="status-value" data-i18n="about.edu-value">Ingeniería en Sistemas · en curso</span>
+            </div>
+            <div class="status-row">
+              <span class="status-label" data-i18n="about.status-label">Estado</span>
+              <span class="status-value" data-i18n="about.status-value">Construyendo cosas</span>
+            </div>
+            <div class="status-row">
+              <span class="status-label" data-i18n="about.links-label">Social Link</span>
+              <span class="status-value"><a href="https://github.com/Youngflexxx" target="_blank" rel="noopener">github.com/Youngflexxx</a></span>
+            </div>
+          </div>
+
+          <div class="about-text reveal">
+            <p data-i18n="about.p1">Soy desarrollador con foco en automatización y desarrollo web. Me interesa que las herramientas resuelvan problemas reales: un bot que juega con visión artificial, una red social que no filtra su base de datos, una interfaz que se entiende sin manual.</p>
+            <p data-i18n="about.p2">Este portafolio reúne mis proyectos públicos de GitHub. Cada uno es una carta del tarot: míralas, dales la vuelta y abre el código fuente.</p>
+            <p data-i18n="about.p3">Me gusta leer, estoy aprendiendo a dibujar y estoy en camino de convertirme en un futuro ingeniero en sistemas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-black" id="projects">
+      <div class="projects-glow" aria-hidden="true"></div>
+      <div class="mx-auto max-w-6xl px-4">
+        <header class="section-head reveal">
+          <span class="section-num">02</span>
+          <h2 data-i18n="projects.title">Proyectos</h2>
+          <p class="section-jp font-jp" data-i18n="projects.jp">大アルカナ</p>
+          <p class="section-sub" data-i18n="projects.sub">Dos cartas, dos historias. Toca una para voltearla.</p>
+        </header>
+
+        <div class="projects-grid" id="projects-grid"><!-- render desde js/data.js --></div>
+      </div>
+    </section>
+
+    <div class="stripes-band" aria-hidden="true"></div>
+
+    <!-- SKILLS -->
+    <section class="section section-yellow halftone" id="skills">
+      <div class="mx-auto max-w-6xl px-4">
+        <header class="section-head reveal">
+          <span class="section-num">03</span>
+          <h2 data-i18n="skills.title">Habilidades</h2>
+          <p class="section-jp font-jp" data-i18n="skills.jp">スキル</p>
+          <p class="section-sub" data-i18n="skills.sub">Lo que manejo, agrupado por terreno.</p>
+        </header>
+
+        <div class="skills-groups" id="skills-groups"><!-- render desde js/data.js --></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-black" id="contact">
+      <div class="mx-auto max-w-6xl px-4 contact-inner">
+        <header class="section-head reveal">
+          <span class="section-num">04</span>
+          <h2 data-i18n="contact.title">Contacto</h2>
+          <p class="section-jp font-jp" data-i18n="contact.jp">声をかけて</p>
+        </header>
+
+        <div class="contact-body reveal">
+          <h3 class="contact-claim" data-i18n="contact.claim">¿Hablamos?</h3>
+          <p class="contact-sub" data-i18n="contact.sub">¿Tienes un proyecto, una idea o solo quieres saludar? El canal está abierto.</p>
+          <div class="contact-actions">
+            <a class="btn-p4" href="https://github.com/Youngflexxx" target="_blank" rel="noopener" data-i18n="contact.github">Abrir GitHub</a>
+            <a class="btn-p4 btn-p4-ghost" href="mailto:herneschirinos@gmail.com" data-i18n="contact.email">Escribir un correo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="stripes-band" aria-hidden="true"></div>
+
+  <footer class="site-footer">
+    <p data-i18n="footer.text">© 2026 Youngflexxx · Hecho con HTML, Tailwind CSS y mucho amarillo.</p>
+    <p class="footer-note" data-i18n="footer.note">Portfolio inspirado en la estética de Persona 4 Golden. Sin assets del juego: todo el diseño es CSS y SVG originales. Persona 4 Golden es marca de Atlus.</p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
