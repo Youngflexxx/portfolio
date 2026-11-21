@@ -2,7 +2,7 @@
 
 Portafolio personal con estética de **Persona 4 Golden**: tarot cards que giran, Midnight Channel (TV static) y un interruptor ES/EN.
 
-**En vivo:** [Pronto en Vercel]()
+**En vivo:** [portfolio-six-pi-jdxpllmg37.vercel.app](https://portfolio-six-pi-jdxpllmg37.vercel.app)
 
 ## Proyectos incluidos
 
@@ -27,6 +27,12 @@ npm run dev        # modo watch
 ```
 
 Luego abre `index.html` en el navegador (no requiere servidor).
+
+## Despliegue
+
+- **Vercel (producción):** `vercel deploy --prod` — proyecto `portfolio` (cuenta `trapperz-yfs-projects`)
+- **GitHub:** push a `main` en [Youngflexxx/portfolio](https://github.com/Youngflexxx/portfolio)
+- Tras editar CSS/HTML: `npm run build` antes de commitear (Vercel también compila en cada deploy)
 
 ## Estructura
 
